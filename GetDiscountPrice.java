@@ -1,5 +1,12 @@
 import java.util.Scanner;
-
+/*
+  Lab 1 - GetDiscountPrice
+  Zach McCown
+  
+  This program calculates the sale price based on the user-input original price and discount percentage.
+  It prompts the user to enter the original price and discount percentage, reads the input, and then computes
+  the discount amount and the sale price. The final sale price is displayed as the output.
+*/
 public class GetDiscountPrice {
   public static void main(String[] args) {
     try {
