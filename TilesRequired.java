@@ -1,5 +1,17 @@
 import java.util.Scanner;
 
+/*
+  Lab 1 - TilesRequired
+  Zach McCown
+  
+  This program calculates the amount of tiles needed and the cost 
+  to tile a room based on user-input dimensions. It prompts the user 
+  to enter the length and width of the room in feet, reads the input, 
+  and calculates the number of tiles needed. The program then computes 
+  the number of packages required (where each package contains 12 tiles) 
+  and calculates the total cost of the tiles. The final results are displayed as the output.
+*/
+
 public class TilesRequired {
     public static void main(String[] args) {
         //create a scanner object to read input from the user
