@@ -1,6 +1,6 @@
 /*
-  Assignment 2 - FabricPattern
-  Author: Zach McCown
+  Assignment 2 - Fabric Pattern
+  Zach McCown
 
   This program generates a fabric pattern based on user-input dimensions. The fabric pattern consists of
   alternating rows with different star (*) arrangements. The user is prompted to input the width and height
