@@ -1,16 +1,22 @@
-import java.util.Scanner;
-
 /*
-  Lab 1 - TilesRequired
-  Zach McCown
-  
-  This program calculates the amount of tiles needed and the cost 
-  to tile a room based on user-input dimensions. It prompts the user 
-  to enter the length and width of the room in feet, reads the input, 
-  and calculates the number of tiles needed. The program then computes 
-  the number of packages required (where each package contains 12 tiles) 
-  and calculates the total cost of the tiles. The final results are displayed as the output.
-*/
+ * Lab 1 - TilesRequired
+ * Zach McCown
+ * TilesRequired - Calculate the Number of Tiles and Cost for Tiling a Room
+ * 
+ * This Java program prompts the user to enter the length and width of a room in feet. It calculates the total
+ * number of tiles needed to cover the floor, considering the dimensions of each tile. The program then determines
+ * the number of packages of tiles required (each containing 12 tiles) and calculates the total cost based on the
+ * cost per package.
+ * 
+ * Instructions:
+ * 1. Run the program and enter the length and width of the room in feet when prompted.
+ * 2. The program calculates the total number of tiles needed, the number of packages required, and the total cost.
+ * 3. It rounds up the dimensions to ensure sufficient tiles are purchased.
+ * 
+ * Note: This program assumes valid input for room dimensions.
+ */
+
+import java.util.Scanner;
 
 public class TilesRequired {
     public static void main(String[] args) {
