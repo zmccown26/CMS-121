@@ -1,3 +1,19 @@
+/*
+ * FINAL PROJECT - Zach McCown and Jerome Verbaet
+ * ChoreOrganizer - A simple chore tracking and payment management program
+ * 
+ * This Java program allows a parent to organize and track chores for her children.
+ * It provides functionality to add new chores, remove completed chores, view remaining tasks, and calculate the amount
+ * owed to each child based on completed chores.
+ * 
+ * Instructions:
+ * 1. Run the program and follow the on-screen menu to perform various tasks.
+ * 2. The program keeps track of chores for each child, their values, and the total amount owed to each child.
+ * 3. Use the menu options to add or remove chores, view remaining tasks, and calculate and pay amounts owed.
+ * 
+ * Note: This program is a simple utility and does not store data between runs.
+ */
+
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Random;
