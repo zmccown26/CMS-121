@@ -1,12 +1,19 @@
 /*
-  Assignment 2 - Fabric Pattern
-  Zach McCown
-
-  This program generates a fabric pattern based on user-input dimensions. The fabric pattern consists of
-  alternating rows with different star (*) arrangements. The user is prompted to input the width and height
-  of the fabric, and the program validates the input to meet specific requirements. The resulting fabric pattern
-  is then displayed as output.
-*/
+ * Assignment 2 - Fabric Pattern
+ * Zach McCown
+ * FabricPattern - Generate Fabric Pattern based on User Input
+ * 
+ * This Java program prompts the user to input the width and height dimensions of a fabric pattern. It validates
+ * the inputs to ensure the width is a multiple of 6 and the height is an odd number greater than or equal to 7.
+ * The program then generates and prints a fabric pattern based on the specified dimensions.
+ * 
+ * Instructions:
+ * 1. Run the program and follow the prompts to enter the width and height of the fabric.
+ * 2. The program validates the inputs and generates a fabric pattern based on the specified dimensions.
+ * 3. The fabric pattern consists of rows with a specific arrangement of '*' and ' ' characters.
+ * 
+ * Note: This program assumes valid input for width and height.
+ */
 
 import java.util.Scanner;
 
