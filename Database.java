@@ -1,4 +1,5 @@
-/* Assignment 3 by Zach McCown and Jerome Verbaet
+/* 
+ * Assignment 3 by Zach McCown and Jerome Verbaet
  * Database - Book Inventory Management System
  * 
  * This Java program provides functionality to manage a book inventory. It reads book data from a file, 
