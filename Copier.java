@@ -1,5 +1,3 @@
-
-
 /*   
  * Assignment 1 done by Zach McCown
  * Copier - Employee Copying Privilege Checker and Balance Deduction
