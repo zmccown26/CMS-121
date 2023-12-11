@@ -15,6 +15,7 @@
  * 
  * Note: This program assumes valid input for the original price and discount percentage.
  */
+
 import java.util.Scanner;
 
 public class GetDiscountPrice {
