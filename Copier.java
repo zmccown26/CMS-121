@@ -1,20 +1,23 @@
-import java.util.Scanner;
-import java.io.IOException;
+
 
 /*   
-  Assignment 1 done by Zach McCown
+ * Assignment 1 done by Zach McCown
+ * Copier - Employee Copying Privilege Checker and Balance Deduction
+ * 
+ * This Java program simulates a copier system for employees, allowing them to make black & white and colored copies.
+ * It prompts the user to enter their ID, current balance, and the number of copies to be made. It then checks if the
+ * employee has the privilege to make colored copies based on their ID and deducts the total cost from their balance.
+ * 
+ * Instructions:
+ * 1. Run the program and follow the prompts to enter employee information and print job details.
+ * 2. The program checks for the privilege to make colored copies and deducts the total cost from the balance.
+ * 3. If the employee lacks the privilege or has insufficient funds, appropriate messages are displayed.
+ * 
+ * Note: This program assumes that employee IDs ending in 65 have the privilege to make colored copies.
+ */
 
-  This program serves as the code needed for a photocopier
-    It will take 4 bits of data
-      ID Number
-      Current Balance
-      Number of black and white copies
-      Number of colored copies
-    Compute if these inputs are allowed
-    Output a message if there is a problem
-    Otherwise say the job is done and give the remaining balance
-  */
-
+import java.util.Scanner;
+import java.io.IOException;
 
 public class Copier {
         public static void main(String[] args) {
