@@ -1,7 +1,20 @@
-/*  Assignment 3 by Zach McCown and Jerome Verbaet
+/* Assignment 3 by Zach McCown and Jerome Verbaet
+ * Database - Book Inventory Management System
  * 
- * This code takes books from a file (books.txt) and converts these into parallel arrays 
- * its user can  get info about these books via specific inputs in the file
+ * This Java program provides functionality to manage a book inventory. It reads book data from a file, 
+ * populates parallel arrays with titles, authors, genres, stocks, and prices. The program supports various
+ * commands such as displaying books by a specific author, listing books with low stock, retrieving stock
+ * information for a given book, displaying detailed information about a book, calculating the cost of the
+ * entire inventory, and handling unknown commands.
+ * 
+ * Instructions:
+ * 1. Ensure that the 'books.txt' file is in the correct format with book data.
+ * 2. Run the program to execute commands and manage the book inventory.
+ * 3. Use commands such as 'A' for authors' books, 'L' for low stock, 'S' for stock of a book, 'D' for detailed
+ *    book information, and 'C' for the cost of the entire inventory.
+ * 
+ * Note: This program assumes a specific format for the input file and provides useful inventory management
+ * features for a book database.
  */
 
 
