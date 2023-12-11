@@ -1,4 +1,4 @@
-/*  Assignment 3 by Jerome Verbaet and Zach McCown
+/*  Assignment 3 by Zach McCown and Jerome Verbaet
  * 
  * This code takes books from a file (books.txt) and converts these into parallel arrays 
  * its user can  get info about these books via specific inputs in the file
