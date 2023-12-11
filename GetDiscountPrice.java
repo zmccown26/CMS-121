@@ -1,14 +1,23 @@
-import java.util.Scanner;
+
 
 /*
-  Lab 1 - GetDiscountPrice
-  Zach McCown
-  
-  This program calculates the sale price based on the user-input original 
-  price and discount percentage. It prompts the user to enter the original 
-  price and discount percentage, reads the input, and then computes the discount 
-  amount and the sale price. The final sale price is displayed as the output.
-*/
+ * Lab 1 - GetDiscountPrice
+ * Zach McCown, Jerome Verbaet, Ella Johnson
+ *
+ * GetDiscountPrice - Calculate Sale Price with Discount
+ * 
+ * This Java program calculates the sale price based on the original price and discount percentage entered by the user.
+ * It prompts the user to input the original price and discount percentage, then computes the discount amount and
+ * the resulting sale price. The program handles potential input errors gracefully.
+ * 
+ * Instructions:
+ * 1. Run the program and follow the prompts to enter the original price and discount percentage.
+ * 2. The program calculates the discount amount and displays the final sale price.
+ * 3. In case of errors during input, the program provides a clear error message.
+ * 
+ * Note: This program assumes valid input for the original price and discount percentage.
+ */
+import java.util.Scanner;
 
 public class GetDiscountPrice {
   public static void main(String[] args) {
