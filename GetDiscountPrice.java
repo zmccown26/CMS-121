@@ -1,5 +1,3 @@
-
-
 /*
  * Lab 1 - GetDiscountPrice
  * Zach McCown, Jerome Verbaet, Ella Johnson
